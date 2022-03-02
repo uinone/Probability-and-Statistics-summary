@@ -3,7 +3,7 @@
 ## 목차
 
 - [Introduction to Probablity](#Introduction-to-Probablity)
-- [Set Theory (operations & relations)](<#Set-Theory-(operations-&-relations)>)
+- [Set Theory (operations & relations)](#Set-Theory-(operations-&-relations))
 - [The definition of probability](#The-definition-of-probability)
 
 ## Introduction to Probablity
