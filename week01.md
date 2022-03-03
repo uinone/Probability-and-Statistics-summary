@@ -100,7 +100,7 @@ $$
 \displaystyle\bigcup_{i=1}^nA_i
 $$
 
-이때 n이 무한대로 갈 시 n만 $\infin$ 으로 바꿔주면 된다.
+이때 n이 무한대로 갈 시 n만 $\infty$ 으로 바꿔주면 된다.
 
 두 event A, B에 대해 다음이 성립한다.
 
@@ -127,7 +127,7 @@ $$
 \displaystyle\bigcap_{i=1}^nA_i
 $$
 
-n이 무한대로 갈 시 n만 $\infin$ 으로 바꿔주면 된다.
+n이 무한대로 갈 시 n만 $\infty$ 으로 바꿔주면 된다.
 
 두 event A, B에 대해 다음이 성립한다.
 
@@ -194,9 +194,9 @@ $$
 
 $P(E)$ 는 하나의 값으로 나타내어지며 무조건 다음의 axioms를 만족시켜야한다.
 
-1. $\forall A \subset S$ 라면 $0 \leq P(A)$ 이다.
+1. $\forall A \subset S$ 라면 $0 \leq P(A) \leq 1$ 이다.
 2. $P(S) = 1$
-3. $P(\displaystyle\bigcup_{i=1}^\infin A_i) = \displaystyle\sum_{i=1}^\infin P(A_i)$
+3. $P(\displaystyle\bigcup_{i=1}^\infty A_i) = \displaystyle\sum_{i=1}^\infty P(A_i)$
 
 이 axioms을 Kolmogorov axioms라 부른다.
 
@@ -212,7 +212,7 @@ $P(A)$ 를 구하려면 S라는 event들 중 A라는 event가 얼마나 일어�
 
 S라는 event들 중에서 S가 일어날 확률은 100% 즉 1과 같다.
 
-#### 3. $P(\displaystyle\bigcup_{i=1}^\infin A_i) = \displaystyle\sum_{i=1}^\infin P(A_i)$
+#### 3. $P(\displaystyle\bigcup_{i=1}^\infty A_i) = \displaystyle\sum_{i=1}^\infty P(A_i)$
 
 사실 이 axiom은 조건을 빼고 결과만 적었기 때문에 조건과 같이 설명하겠다.
 
@@ -220,7 +220,7 @@ S라는 event들 중에서 S가 일어날 확률은 100% 즉 1과 같다.
 2. 집합들($A_1, A_2, \cdots$)이 서로 disjoint하다면
 
 $$
-P(\displaystyle\bigcup_{i=1}^\infin A_i) = \displaystyle\sum_{i=1}^\infin P(A_i), P(\displaystyle\bigcup_{i=1}^n A_i) = \displaystyle\sum_{i=1}^n P(A_i)
+P(\displaystyle\bigcup_{i=1}^\infty A_i) = \displaystyle\sum_{i=1}^\infty P(A_i), P(\displaystyle\bigcup_{i=1}^n A_i) = \displaystyle\sum_{i=1}^n P(A_i)
 $$
 
 서로 disjoint한 event A와 B가 있다고 하면, $A \cap B = \varnothing$ 이기 때문에 단순히 A가 일어날 경우와 B가 일어날 경우를 더한 값이 $A \cup B$ 가 일어날 경우의 수와 같다.
@@ -242,12 +242,12 @@ $$
 따라서 3번째 axiom에 의해 다음이 성립한다.
 
 $$
-P(\varnothing) = P(\displaystyle\bigcup_{i=1}^\infin A_i) = \displaystyle\sum_{i=1}^\infin P(A_i) = \displaystyle\sum_{i=1}^\infin P(\varnothing)
+P(\varnothing) = P(\displaystyle\bigcup_{i=1}^\infty A_i) = \displaystyle\sum_{i=1}^\infty P(A_i) = \displaystyle\sum_{i=1}^\infty P(\varnothing)
 $$
 
 위 식의 맨 첫번째와 마지막만을 보고 생각을 해보자.
 
-$P(\varnothing)$ 과 $\displaystyle\sum_{i=1}^\infin P(\varnothing)$ 를 같게 만드는 유일한 값은 0임을 알 수 있다.
+$P(\varnothing)$ 과 $\displaystyle\sum_{i=1}^\infty P(\varnothing)$ 를 같게 만드는 유일한 값은 0임을 알 수 있다.
 
 ### $P(A \cap B^c) = P(A)-P(A \cap B)$ 의 증명
 
@@ -272,7 +272,7 @@ $$
 각 event($A_1, A_2, \cdots $)에 대해 다음 부등식이 성립한다.
 
 $$
-P(\displaystyle\bigcup_{i=1}^\infin A_i) \leq \displaystyle\sum_{i=1}^\infin P(A_i)
+P(\displaystyle\bigcup_{i=1}^\infty A_i) \leq \displaystyle\sum_{i=1}^\infty P(A_i)
 $$
 
 #### 증명
@@ -289,16 +289,16 @@ $B_i$ 들을 모두 union 시키면 $A_i$ 와 같다. 겹치는 부분을 뺐지
 
 $A \cup B = (A \cap B^c) \cup (A \cap B)$ 를 떠올리면 되겠다.
 
-따라서 $\displaystyle\bigcup_{i=1}^\infin A_i = \displaystyle\bigcup_{i=1}^\infin B_i$ 이며, $B_1, B_2, \cdots$ 들은 mutually disjoint 이므로 3번째 axiom을 만족한다. 따라서 다음 식이 성립하게 된다.
+따라서 $\displaystyle\bigcup_{i=1}^\infty A_i = \displaystyle\bigcup_{i=1}^\infty B_i$ 이며, $B_1, B_2, \cdots$ 들은 mutually disjoint 이므로 3번째 axiom을 만족한다. 따라서 다음 식이 성립하게 된다.
 
 $$
-P(\displaystyle\bigcup_{i=1}^\infin A_i) = P(\displaystyle\bigcup_{i=1}^\infin B_i) = \displaystyle\sum_{i=1}^\infin P(B_i)
+P(\displaystyle\bigcup_{i=1}^\infty A_i) = P(\displaystyle\bigcup_{i=1}^\infty B_i) = \displaystyle\sum_{i=1}^\infty P(B_i)
 $$
 
 이제 원래 부등식을 조금 변형시키면 다음과 같아진다.
 
 $$
-\displaystyle\sum_{i=1}^\infin P(B_i) \leq \displaystyle\sum_{i=1}^\infin P(A_i)
+\displaystyle\sum_{i=1}^\infty P(B_i) \leq \displaystyle\sum_{i=1}^\infty P(A_i)
 $$
 
 이때 $B_i \subseteq A_i$ 이기 때문에 $P(B_i) \leq P(A_i)$ 이다. 따라서 원래의 Boole의 부등식이 증명됨을 알 수 있다.
