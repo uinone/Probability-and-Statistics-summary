@@ -126,7 +126,7 @@ $$P(B | A_i) = {1 \over 50-i+1}$$
 
 또한 $A_1 \cdots A_{50}$ 은 `중복이 가능하게 뽑으므로` 서로 mutually disjoint함을 알 수 있다.
 
-결과적으로 50개의 partitions($A_1 \cdots A_{50}$)를 가진 집합 S에서 $B \subset A$ 인 event B의 확률은 Low of total probability에 의해 다음과 같다.
+결과적으로 50개의 partitions($A_1 \cdots A_{50}$)를 가진 집합 S에서 $B \subset S$ 인 event B의 확률은 Low of total probability에 의해 다음과 같다.
 
 $$
 P(B) = \displaystyle\sum^{Y}_{i=1} P(A_i) \cdot P(B | A_i)
@@ -175,7 +175,7 @@ k개의 events $A_1 \cdots A_k$ 가 mutually independent라고 하는 것은 다
 $\forall subset$ $\{A_{i_1}, \cdots , A_{i_j}\}$ for $2 \leq j \leq k$ 에 대해 다음이 성립한다.
 
 $$
-P(A_{i_1} \cap A_{i_2} \cap \cdots \cap A_{i_j}) = P(A_{i_1}) \cdot A_{i_2} \cdots P(A_{i_j})
+P(A_{i_1} \cap A_{i_2} \cap \cdots \cap A_{i_j}) = P(A_{i_1}) \cdot P(A_{i_2}) \cdots P(A_{i_j})
 $$
 
 이때 $\forall subset$ $\{A_{i_1}, \cdots , A_{i_j}\}$ 에서 각 $A_{i_j}$ 는 k개의 events $A_1 \cdots A_k$ 에서 j개의 event를 골랐다는 것을 의미한다.
