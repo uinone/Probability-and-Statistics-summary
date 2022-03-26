@@ -2,17 +2,17 @@
 
 ## 목차
 
-- [Introduction to Probablity](#Introduction-to-Probablity)
-- [Set Theory (operations & relations)](#set-theory-operations--relations)
-- [The definition of probability](#The-definition-of-probability)
+- Introduction to Probablity
+- Set Theory (operations & relations)
+- The definition of probability
 
 ## Introduction to Probablity
 
 ### 목차
 
-- [Experiment](#Experiment)
-- [Sample Space](#Sample-Space)
-- [Event](#Event)
+- Experiment
+- Sample Space
+- Event
 
 ### Experiment
 
@@ -38,6 +38,8 @@ $$
 
 조건이 있기 때문에 모든 결과들을 의미하는 것이 아닌 부분집합(Subset)을 의미한다는 것을 잘 기억하자.
 
+한마디로 $event \subset S$ 이다.
+
 주사위에서 짝수만 나오는 사건들의 집합은 다음과 같이 나타낼 수 있다.
 
 $$
@@ -50,14 +52,14 @@ $$
 
 ### 목차
 
-- [Subset($\subset$)](<#Subset($\subset$)>)
-- [Empty Set($\varnothing$)](<#Empty-Set($\varnothing$)>)
-- [Complement($A^c$)](<#Complement($A^c$)>)
-- [Union](#Union)
-- [Intersection](#Intersection)
-- [De Morgan's law](#De-Morgan's-law)
-- [Distributive Property](#Distributive-Property)
-- [Partitioning a set⭐](#Partitioning-a-set⭐)
+- Subset($\subset$)
+- Empty Set($\varnothing$)
+- Complement($A^c$)
+- Union
+- Intersection
+- De Morgan's law
+- Distributive Property
+- Partitioning a set⭐
 
 ### Subset($\subset$)
 
@@ -92,7 +94,7 @@ Sample Space의 부분집합인 A, B, C에 대해
 
 ### Union
 
-두 event A, B를 union한다는 것을 기호로 표현하면 $A \cup B$ 으로 표현한다. 이는 A, B 그리고 A와 B가 동시에 일어나는 모든 사건들이 일어나는 event를 말한다.
+두 event A, B를 union한다는 것을 기호로 표현하면 $A \cup B$ 으로 표현한다. 이는 A 또는 B 또는 A와 B가 동시에 일어나는 모든 사건들을 포함하는 event를 말한다.
 
 이때 두 개 이상의 집합들을 union 시키고 싶다면 다음과 같이 표기한다.
 
@@ -119,7 +121,7 @@ $$
 
 ### Intersection
 
-두 event A, B에 대해 intersection한다는 것은 $A \cap B$ 로 표기한다. 이는 A와 B가 동시에 일어나는 event를 말한다.
+두 event A, B에 대해 intersection한다는 것은 $A \cap B$ 로 표기한다. 이는 오직 A와 B가 동시에 일어나는 event만을 말한다.
 
 두 개 이상의 집합들을 intersection 시키고 싶다면 다음과 같이 표기한다.
 
